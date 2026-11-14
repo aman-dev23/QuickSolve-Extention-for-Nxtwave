@@ -75,7 +75,7 @@ Your keys are saved **only in your own Tampermonkey** on your computer. They are
 
 The QuickSolve panel with every button numbered
 
-<img width="378" height="478" alt="panel" src="https://github.com/user-attachments/assets/ec037732-86d6-4f57-9e10-ce37413e6178" />
+<img width="478" height="438" alt="panel" src="https://github.com/user-attachments/assets/ec037732-86d6-4f57-9e10-ce37413e6178" />
 
 |---|---|---|
 | # | Control | What it does |
