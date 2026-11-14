@@ -58,6 +58,7 @@ Settings page with the key fields marked
 
 <img width="458" height="679" alt="settings" src="https://github.com/user-attachments/assets/55d6ddaa-cf49-4a57-b8fd-57edc970ef27" />
 
+|---|---|---|
 | # | Field | What to do |
 |---|---|---|
 | 1 | **AI provider** | `auto` uses both (web-dev tasks go to Groq, the rest to Gemini). Pick `gemini` if you only added a Gemini key. |
@@ -76,7 +77,7 @@ The QuickSolve panel with every button numbered
 
 <img width="478" height="478" alt="panel" src="https://github.com/user-attachments/assets/ec037732-86d6-4f57-9e10-ce37413e6178" />
 
-
+|---|---|---|
 | # | Control | What it does |
 |---|---|---|
 | 1 | ⚙ **Settings** | Keys, models, shortcuts, theme and panel width |
