@@ -54,7 +54,9 @@ Sign in, click **Create API key**, and copy the key. Keep it private, like a pas
 1. Click the **⚙** icon in the QuickSolve panel (marked **1** below).
 2. Scroll down to the key fields and paste your keys.
 
-![Settings page with the key fields marked](<img width="439" height="1053" alt="image" src="https://github.com/user-attachments/assets/19ec1513-c325-436b-bfde-d9120ac94109" />
+Settings page with the key fields marked
+
+<img width="439" height="1053" alt="image" src="https://github.com/user-attachments/assets/19ec1513-c325-436b-bfde-d9120ac94109" />
 )
 
 | # | Field | What to do |
@@ -71,7 +73,9 @@ Your keys are saved **only in your own Tampermonkey** on your computer. They are
 ## Using QuickSolve
 
 
-![The QuickSolve panel with every button numbered](<img width="439" height="289" alt="image" src="https://github.com/user-attachments/assets/5e69d8e0-c92f-4c35-a9ec-d52d48a52d78" />)
+The QuickSolve panel with every button numbered
+
+<img width="439" height="289" alt="image" src="https://github.com/user-attachments/assets/5e69d8e0-c92f-4c35-a9ec-d52d48a52d78" />)
 
 | # | Control | What it does |
 |---|---|---|
