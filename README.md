@@ -56,7 +56,7 @@ Sign in, click **Create API key**, and copy the key. Keep it private, like a pas
 
 Settings page with the key fields marked
 
-<img width="328" height="639" alt="settings" src="https://github.com/user-attachments/assets/55d6ddaa-cf49-4a57-b8fd-57edc970ef27" />
+<img width="275" height="600" alt="settings" src="https://github.com/user-attachments/assets/55d6ddaa-cf49-4a57-b8fd-57edc970ef27" />
 
 |---|---|---|
 | # | Field | What to do |
@@ -75,7 +75,7 @@ Your keys are saved **only in your own Tampermonkey** on your computer. They are
 
 The QuickSolve panel with every button numbered
 
-<img width="458" height="300" alt="panel" src="https://github.com/user-attachments/assets/ec037732-86d6-4f57-9e10-ce37413e6178" />
+<img width="275" height="320" alt="panel" src="https://github.com/user-attachments/assets/ec037732-86d6-4f57-9e10-ce37413e6178" />
 
 |---|---|---|
 | # | Control | What it does |
