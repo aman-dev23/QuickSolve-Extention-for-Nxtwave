@@ -1500,7 +1500,7 @@ button{font:inherit;font-weight:500;border:1px solid var(--bd);background:var(--
 button:hover{background:var(--bg2);border-color:color-mix(in srgb,var(--ac) 40%,var(--bd))}
 button:active{transform:translateY(1px)}
 button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--ac);outline-offset:1px}
-button.pri{background:var(--ac);border-color:var(--ac);color:#fff;font-weight:600}
+button.pri{background:var(--ac);border-color:var(--ac);color:#00ff00;font-weight:600}
 button.pri:hover{filter:brightness(1.08);background:var(--ac)}
 .ic{padding:0;width:26px;height:26px;min-height:0;border-color:transparent;background:transparent;font-size:14px;line-height:1}
 .ic:hover{background:color-mix(in srgb,var(--fg) 10%,transparent);border-color:transparent}
