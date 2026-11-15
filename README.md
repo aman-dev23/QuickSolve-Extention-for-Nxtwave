@@ -54,8 +54,11 @@ Sign in, click **Create API key**, and copy the key. Keep it private, like a pas
 1. Click the **⚙** icon in the QuickSolve panel (marked **1** below).
 2. Scroll down to the key fields and paste your keys.
 
-![Settings page with the key fields marked](images/settings.png)
+Settings page with the key fields marked
 
+<img width="275" height="600" alt="settings" src="https://github.com/user-attachments/assets/55d6ddaa-cf49-4a57-b8fd-57edc970ef27" />
+
+|---|---|---|
 | # | Field | What to do |
 |---|---|---|
 | 1 | **AI provider** | `auto` uses both (web-dev tasks go to Groq, the rest to Gemini). Pick `gemini` if you only added a Gemini key. |
@@ -69,8 +72,12 @@ Your keys are saved **only in your own Tampermonkey** on your computer. They are
 
 ## Using QuickSolve
 
-![The QuickSolve panel with every button numbered](images/panel.png)
 
+The QuickSolve panel with every button numbered
+
+<img width="275" height="175" alt="panel" src="https://github.com/user-attachments/assets/ec037732-86d6-4f57-9e10-ce37413e6178" />
+
+|---|---|---|
 | # | Control | What it does |
 |---|---|---|
 | 1 | ⚙ **Settings** | Keys, models, shortcuts, theme and panel width |
