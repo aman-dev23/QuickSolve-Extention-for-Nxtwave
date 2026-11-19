@@ -59,7 +59,7 @@ const DEFAULTS = {
   detail: 'short', theme: 'auto',
   apiKey: '', model: 'gemini-3.1-flash-lite',
   provider: 'auto', groqKey: '', groqModel: 'openai/gpt-oss-120b', review: true,
-  sites: ['learning.ccbp.in'], pos: null, minimized: false, width: 260, fbEmail: ''
+  sites: ['learning.ccbp.in'], pos: null, minimized: false, panelHidden: false, width: 260, fbEmail: ''
 };
 
 const Settings = {
@@ -1685,6 +1685,7 @@ kbd{font:600 10px ui-monospace,Menlo,Consolas,monospace;background:var(--bg2);bo
     this.buildSettings();
     document.body.appendChild(host);
     const p = Settings.cur.pos; if (p) { host.style.left = p.x + 'px'; host.style.top = p.y + 'px'; host.style.right = host.style.bottom = 'auto'; }
+    if (Settings.cur.panelHidden) { this.hidden = true; host.style.display = 'none'; }   // restore the saved hidden / visible state after a reload
     Settings.onChange(() => this.sync()); this.sync();
   },
 
@@ -1939,7 +1940,12 @@ const Main = {
     UI.setStatus(Settings.cur.enabled ? 'ready' : 'disabled', Settings.cur.enabled ? 'ok' : 'err');
   },
   toggleVisible() { Settings.set({ answerVisible: !Settings.cur.answerVisible }); },
-  toggleHidden() { if (!UI.host) return; UI.hidden = !UI.hidden; UI.host.style.display = UI.hidden ? 'none' : ''; },
+  toggleHidden() {
+    if (!UI.host) return;
+    UI.hidden = !UI.hidden;
+    UI.host.style.display = UI.hidden ? 'none' : '';
+    Settings.set({ panelHidden: UI.hidden });          // remember it across reloads / browser restarts
+  },
   cycleProvider() {
     const o = ['auto', 'gemini', 'groq'], n = o[(o.indexOf(Settings.cur.provider) + 1) % 3];
     Settings.set({ provider: n });
