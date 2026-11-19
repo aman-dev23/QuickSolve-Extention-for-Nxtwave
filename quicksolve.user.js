@@ -7,7 +7,7 @@
 // @license      MIT
 // @updateURL    https://raw.githubusercontent.com/aman-dev23/QuickSolve-Extention-for-Nxtwave/main/quicksolve.user.js
 // @downloadURL  https://raw.githubusercontent.com/aman-dev23/QuickSolve-Extention-for-Nxtwave/main/quicksolve.user.js
-// @version      1.7.4
+// @version      1.7.5
 // @description  AI-powered practice assistant (Gemini) — keyboard engine works offline
 // @match        https://learning.ccbp.in/*
 // @run-at       document-idle
